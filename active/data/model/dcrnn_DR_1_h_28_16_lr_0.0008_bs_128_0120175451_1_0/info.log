@@ -1,0 +1,15 @@
+2025-01-20 17:54:51,235 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_DR_1_h_28_16_lr_0.0008_bs_128_0120175451_1_0/
+2025-01-20 17:54:54,456 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-01-20 17:54:54,938 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2025-01-20 17:54:54,938 - model.pytorch.dcrnn_supervisor - INFO - num_batches:14
+2025-01-20 17:54:55,076 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 321656
+2025-01-20 17:54:58,609 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 17:54:58,609 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 17:55:00,185 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/500] (14) train_mae: 545243.1942, train_kld: 0.0087, val_mae: 275783.5625, lr: 0.000800, 5.2s
+2025-01-20 17:55:01,618 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/500] (14) test_mae: 169094.6719, test_rmse: 1033762.2500, lr: 0.000800, 5.2s
+2025-01-20 17:55:01,618 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 275783.5625.
+2025-01-20 17:55:05,010 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 17:55:05,010 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 17:55:06,417 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/500] (28) train_mae: 543526.6696, train_kld: 0.0017, val_mae: 275781.3750, lr: 0.000800, 4.8s
+2025-01-20 17:55:07,648 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/500] (28) test_mae: 169092.8438, test_rmse: 1033762.0000, lr: 0.000800, 4.8s
+2025-01-20 17:55:07,648 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275783.5625 to 275781.3750.

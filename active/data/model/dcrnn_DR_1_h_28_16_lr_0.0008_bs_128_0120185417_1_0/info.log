@@ -1,0 +1,35 @@
+2025-01-20 18:54:17,353 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_DR_1_h_28_16_lr_0.0008_bs_128_0120185417_1_0/
+2025-01-20 18:54:20,501 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-01-20 18:54:21,320 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2025-01-20 18:54:21,320 - model.pytorch.dcrnn_supervisor - INFO - num_batches:14
+2025-01-20 18:54:21,464 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 321656
+2025-01-20 18:54:24,814 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 18:54:24,814 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 18:54:26,056 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/500] (14) train_mae: 545243.1942, train_kld: 0.0087, val_mae: 275783.5625, lr: 0.000800, 4.7s
+2025-01-20 18:54:27,256 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/500] (14) test_mae: 169094.6719, test_rmse: 1033762.2500, lr: 0.000800, 4.7s
+2025-01-20 18:54:27,256 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 275783.5625.
+2025-01-20 18:54:30,715 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 18:54:30,715 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 18:54:31,999 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/500] (28) train_mae: 543526.6696, train_kld: 0.0017, val_mae: 275781.3750, lr: 0.000800, 4.7s
+2025-01-20 18:54:33,304 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/500] (28) test_mae: 169092.8438, test_rmse: 1033762.0000, lr: 0.000800, 4.7s
+2025-01-20 18:54:33,304 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275783.5625 to 275781.3750.
+2025-01-20 18:54:36,611 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 18:54:36,611 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 18:54:37,867 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/500] (42) train_mae: 535386.1853, train_kld: 0.0030, val_mae: 275776.5000, lr: 0.000800, 4.6s
+2025-01-20 18:54:39,179 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/500] (42) test_mae: 169089.1875, test_rmse: 1033761.1875, lr: 0.000800, 4.6s
+2025-01-20 18:54:39,180 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275781.3750 to 275776.5000.
+2025-01-20 18:54:42,560 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 18:54:42,560 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 18:54:43,657 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/500] (56) train_mae: 541221.4509, train_kld: 0.0028, val_mae: 275766.1875, lr: 0.000800, 4.5s
+2025-01-20 18:54:44,739 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/500] (56) test_mae: 169082.1094, test_rmse: 1033759.1250, lr: 0.000800, 4.5s
+2025-01-20 18:54:44,739 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275776.5000 to 275766.1875.
+2025-01-20 18:54:48,213 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 18:54:48,213 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 18:54:49,210 - model.pytorch.dcrnn_supervisor - INFO - Epoch [4/500] (70) train_mae: 539710.1339, train_kld: 0.0005, val_mae: 275744.8750, lr: 0.000800, 4.5s
+2025-01-20 18:54:50,322 - model.pytorch.dcrnn_supervisor - INFO - Epoch [4/500] (70) test_mae: 169069.9844, test_rmse: 1033755.3125, lr: 0.000800, 4.5s
+2025-01-20 18:54:50,323 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275766.1875 to 275744.8750.
+2025-01-20 18:54:53,723 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 18:54:53,724 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 18:54:54,893 - model.pytorch.dcrnn_supervisor - INFO - Epoch [5/500] (84) train_mae: 540553.2835, train_kld: 0.0005, val_mae: 275704.4375, lr: 0.000800, 4.6s
+2025-01-20 18:54:56,262 - model.pytorch.dcrnn_supervisor - INFO - Epoch [5/500] (84) test_mae: 169052.0469, test_rmse: 1033745.8125, lr: 0.000800, 4.6s
+2025-01-20 18:54:56,262 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275744.8750 to 275704.4375.

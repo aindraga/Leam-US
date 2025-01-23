@@ -1,0 +1,973 @@
+2025-01-20 20:15:12,521 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_DR_1_h_28_16_lr_0.0008_bs_128_0120201512_1_0/
+2025-01-20 20:15:15,747 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2025-01-20 20:15:16,157 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2025-01-20 20:15:16,157 - model.pytorch.dcrnn_supervisor - INFO - num_batches:14
+2025-01-20 20:15:16,159 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:16,159 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:16,159 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:16,160 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:16,160 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:16,231 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:16,281 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:16,281 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 321656
+2025-01-20 20:15:16,282 - model.pytorch.dcrnn_supervisor - DEBUG - 523647.40625
+2025-01-20 20:15:16,426 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:16,426 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:16,426 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:16,426 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:16,427 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:16,490 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:16,536 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:16,538 - model.pytorch.dcrnn_supervisor - DEBUG - 551276.875
+2025-01-20 20:15:16,659 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:16,660 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:16,660 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:16,660 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:16,660 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:16,728 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:16,775 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:16,777 - model.pytorch.dcrnn_supervisor - DEBUG - 518140.6875
+2025-01-20 20:15:16,904 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:16,904 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:16,904 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:16,904 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:16,905 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:16,971 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:17,018 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:17,019 - model.pytorch.dcrnn_supervisor - DEBUG - 573929.5625
+2025-01-20 20:15:17,152 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:17,152 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:17,152 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:17,152 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:17,152 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:17,219 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:17,267 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:17,268 - model.pytorch.dcrnn_supervisor - DEBUG - 586455.875
+2025-01-20 20:15:17,394 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:17,394 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:17,394 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:17,394 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:17,395 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:17,461 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:17,507 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:17,509 - model.pytorch.dcrnn_supervisor - DEBUG - 495168.0
+2025-01-20 20:15:17,647 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:17,647 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:17,647 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:17,647 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:17,648 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:17,711 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:17,759 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:17,760 - model.pytorch.dcrnn_supervisor - DEBUG - 603053.625
+2025-01-20 20:15:17,884 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:17,884 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:17,884 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:17,884 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:17,885 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:17,952 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:17,997 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:18,000 - model.pytorch.dcrnn_supervisor - DEBUG - 542971.25
+2025-01-20 20:15:18,127 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:18,127 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:18,127 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:18,127 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:18,128 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:18,197 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:18,244 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:18,246 - model.pytorch.dcrnn_supervisor - DEBUG - 494856.46875
+2025-01-20 20:15:18,387 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:18,388 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:18,388 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:18,388 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:18,388 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:18,453 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:18,500 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:18,502 - model.pytorch.dcrnn_supervisor - DEBUG - 514421.15625
+2025-01-20 20:15:18,639 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:18,639 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:18,639 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:18,639 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:18,640 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:18,705 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:18,751 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:18,753 - model.pytorch.dcrnn_supervisor - DEBUG - 600111.625
+2025-01-20 20:15:18,926 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:18,926 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:18,926 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:18,926 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:18,926 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:18,992 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:19,039 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:19,041 - model.pytorch.dcrnn_supervisor - DEBUG - 548825.1875
+2025-01-20 20:15:19,167 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,167 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,167 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,167 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:19,168 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:19,233 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:19,278 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:19,280 - model.pytorch.dcrnn_supervisor - DEBUG - 550090.0
+2025-01-20 20:15:19,402 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,402 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,402 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,402 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:19,403 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:19,469 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:19,517 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:19,520 - model.pytorch.dcrnn_supervisor - DEBUG - 530457.0625
+2025-01-20 20:15:19,640 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 20:15:19,640 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 20:15:19,642 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,642 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,642 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,715 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,715 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,715 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,778 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,778 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,778 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,855 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,855 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,855 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,920 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,920 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,920 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:19,984 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:19,984 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:19,984 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,047 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,047 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,047 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,110 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,110 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,110 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,177 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,177 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,177 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,252 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,252 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,252 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,321 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,321 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,321 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,383 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,383 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,383 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,469 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,469 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,469 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,534 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,534 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,534 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,601 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,601 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,601 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,668 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,668 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,668 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,747 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,747 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,747 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,827 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/500] (14) train_mae: 545243.1942, train_kld: 0.0087, val_mae: 275783.5625, lr: 0.000800, 4.7s
+2025-01-20 20:15:20,829 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,829 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,829 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,904 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,904 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,904 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:20,978 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:20,978 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:20,978 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,041 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,041 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,041 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,109 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,109 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,109 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,178 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,178 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,178 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,238 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,238 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,238 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,302 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,302 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,302 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,375 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,375 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,375 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,440 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,440 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,440 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,511 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,511 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,511 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,575 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,575 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,575 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,637 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,637 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,637 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,700 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,700 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,701 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,763 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,763 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,763 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,846 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,846 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,846 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,912 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,912 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,912 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:21,987 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:21,987 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:21,987 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:22,067 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/500] (14) test_mae: 169094.6719, test_rmse: 1033762.2500, lr: 0.000800, 4.7s
+2025-01-20 20:15:22,067 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 275783.5625.
+2025-01-20 20:15:22,070 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:22,070 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:22,070 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:22,070 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:22,071 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:22,141 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:22,188 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:22,190 - model.pytorch.dcrnn_supervisor - DEBUG - 528073.125
+2025-01-20 20:15:22,309 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:22,309 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:22,309 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:22,309 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:22,309 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:22,375 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:22,419 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:22,420 - model.pytorch.dcrnn_supervisor - DEBUG - 545213.375
+2025-01-20 20:15:22,557 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:22,557 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:22,557 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:22,557 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:22,558 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:22,621 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:22,667 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:22,668 - model.pytorch.dcrnn_supervisor - DEBUG - 527801.4375
+2025-01-20 20:15:22,798 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:22,798 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:22,798 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:22,798 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:22,798 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:22,863 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:22,909 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:22,910 - model.pytorch.dcrnn_supervisor - DEBUG - 542310.4375
+2025-01-20 20:15:23,031 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:23,031 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:23,031 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:23,031 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:23,032 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:23,100 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:23,144 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:23,146 - model.pytorch.dcrnn_supervisor - DEBUG - 601943.8125
+2025-01-20 20:15:23,266 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:23,266 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:23,266 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:23,266 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:23,266 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:23,331 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:23,376 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:23,379 - model.pytorch.dcrnn_supervisor - DEBUG - 508622.28125
+2025-01-20 20:15:23,505 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:23,505 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:23,505 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:23,505 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:23,505 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:23,570 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:23,615 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:23,617 - model.pytorch.dcrnn_supervisor - DEBUG - 598532.125
+2025-01-20 20:15:23,746 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:23,747 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:23,747 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:23,747 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:23,747 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:23,812 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:23,858 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:23,860 - model.pytorch.dcrnn_supervisor - DEBUG - 513006.0
+2025-01-20 20:15:23,986 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:23,986 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:23,986 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:23,986 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:23,987 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:24,053 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:24,100 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:24,103 - model.pytorch.dcrnn_supervisor - DEBUG - 482902.53125
+2025-01-20 20:15:24,237 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:24,237 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:24,237 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:24,237 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:24,238 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:24,305 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:24,351 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:24,353 - model.pytorch.dcrnn_supervisor - DEBUG - 507578.875
+2025-01-20 20:15:24,482 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:24,482 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:24,482 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:24,483 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:24,483 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:24,548 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:24,595 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:24,597 - model.pytorch.dcrnn_supervisor - DEBUG - 608305.9375
+2025-01-20 20:15:24,743 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:24,743 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:24,743 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:24,743 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:24,744 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:24,810 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:24,855 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:24,857 - model.pytorch.dcrnn_supervisor - DEBUG - 541991.0
+2025-01-20 20:15:24,985 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:24,985 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:24,985 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:24,985 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:24,985 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:25,054 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:25,099 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:25,102 - model.pytorch.dcrnn_supervisor - DEBUG - 547841.8125
+2025-01-20 20:15:25,221 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,221 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,221 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,221 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:25,222 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:25,289 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:25,335 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:25,337 - model.pytorch.dcrnn_supervisor - DEBUG - 555250.625
+2025-01-20 20:15:25,482 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 20:15:25,482 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 20:15:25,483 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,483 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,483 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,546 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,547 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,547 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,617 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,617 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,617 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,695 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,695 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,695 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,763 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,763 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,763 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,847 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,847 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,847 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,911 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,911 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,911 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:25,989 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:25,989 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:25,989 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,048 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,048 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,048 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,110 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,110 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,110 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,181 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,181 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,181 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,257 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,257 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,257 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,325 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,325 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,325 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,390 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,390 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,390 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,459 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,459 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,459 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,517 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,517 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,517 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,585 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,585 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,585 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,659 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/500] (28) train_mae: 543526.6696, train_kld: 0.0017, val_mae: 275781.3750, lr: 0.000800, 4.6s
+2025-01-20 20:15:26,660 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,660 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,660 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,728 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,728 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,728 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,799 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,799 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,799 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,872 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,872 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,872 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:26,948 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:26,948 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:26,948 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,032 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,032 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,032 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,108 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,108 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,108 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,171 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,171 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,171 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,230 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,230 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,230 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,296 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,296 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,296 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,358 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,358 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,358 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,420 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,420 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,421 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,489 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,489 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,489 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,556 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,556 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,556 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,620 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,620 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,620 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,685 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,685 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,685 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,754 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,754 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,754 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,814 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,814 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,814 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,890 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/500] (28) test_mae: 169092.8438, test_rmse: 1033762.0000, lr: 0.000800, 4.6s
+2025-01-20 20:15:27,890 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275783.5625 to 275781.3750.
+2025-01-20 20:15:27,907 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:27,907 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:27,907 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:27,907 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:27,908 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:27,975 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:28,019 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:28,022 - model.pytorch.dcrnn_supervisor - DEBUG - 508282.90625
+2025-01-20 20:15:28,152 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:28,152 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:28,152 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:28,152 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:28,153 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:28,217 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:28,261 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:28,263 - model.pytorch.dcrnn_supervisor - DEBUG - 513753.9375
+2025-01-20 20:15:28,387 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:28,387 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:28,387 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:28,387 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:28,387 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:28,453 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:28,499 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:28,500 - model.pytorch.dcrnn_supervisor - DEBUG - 506068.75
+2025-01-20 20:15:28,626 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:28,626 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:28,626 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:28,626 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:28,627 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:28,694 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:28,741 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:28,743 - model.pytorch.dcrnn_supervisor - DEBUG - 548601.1875
+2025-01-20 20:15:28,873 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:28,873 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:28,873 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:28,873 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:28,874 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:28,941 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:28,989 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:28,991 - model.pytorch.dcrnn_supervisor - DEBUG - 575551.5
+2025-01-20 20:15:29,118 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:29,119 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:29,119 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:29,119 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:29,119 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:29,184 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:29,229 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:29,231 - model.pytorch.dcrnn_supervisor - DEBUG - 512527.875
+2025-01-20 20:15:29,362 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:29,363 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:29,363 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:29,363 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:29,363 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:29,432 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:29,478 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:29,481 - model.pytorch.dcrnn_supervisor - DEBUG - 591617.75
+2025-01-20 20:15:29,600 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:29,600 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:29,600 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:29,600 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:29,600 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:29,666 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:29,710 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:29,712 - model.pytorch.dcrnn_supervisor - DEBUG - 539262.3125
+2025-01-20 20:15:29,830 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:29,830 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:29,830 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:29,830 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:29,831 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:29,897 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:29,943 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:29,945 - model.pytorch.dcrnn_supervisor - DEBUG - 489334.65625
+2025-01-20 20:15:30,070 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:30,070 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:30,070 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:30,070 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:30,070 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:30,136 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:30,182 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:30,184 - model.pytorch.dcrnn_supervisor - DEBUG - 498290.09375
+2025-01-20 20:15:30,315 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:30,315 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:30,315 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:30,315 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:30,316 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:30,381 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:30,426 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:30,428 - model.pytorch.dcrnn_supervisor - DEBUG - 557950.4375
+2025-01-20 20:15:30,577 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:30,577 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:30,577 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:30,577 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:30,578 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:30,642 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:30,687 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:30,689 - model.pytorch.dcrnn_supervisor - DEBUG - 533685.5625
+2025-01-20 20:15:30,828 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:30,829 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:30,829 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:30,829 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:30,829 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:30,895 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:30,940 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:30,942 - model.pytorch.dcrnn_supervisor - DEBUG - 580970.625
+2025-01-20 20:15:31,083 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,083 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,083 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,083 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:31,083 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:31,149 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:31,195 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:31,197 - model.pytorch.dcrnn_supervisor - DEBUG - 539509.0
+2025-01-20 20:15:31,342 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 20:15:31,342 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 20:15:31,342 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,342 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,342 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,406 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,406 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,406 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,509 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,509 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,509 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,597 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,597 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,597 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,672 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,672 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,672 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,737 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,737 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,737 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,809 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,809 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,809 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,870 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,870 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,870 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:31,960 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:31,960 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:31,960 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,027 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,027 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,027 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,100 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,100 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,100 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,173 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,174 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,174 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,250 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,250 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,250 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,326 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,326 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,326 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,392 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,392 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,392 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,466 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,466 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,466 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,541 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,541 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,541 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,617 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/500] (42) train_mae: 535386.1853, train_kld: 0.0030, val_mae: 275776.5000, lr: 0.000800, 4.7s
+2025-01-20 20:15:32,617 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,617 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,617 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,681 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,681 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,681 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,743 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,743 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,743 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,813 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,813 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,813 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,873 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,873 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,873 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:32,945 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:32,945 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:32,945 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,015 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,015 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,015 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,076 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,077 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,077 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,143 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,143 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,143 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,210 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,210 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,210 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,272 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,272 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,272 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,335 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,335 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,335 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,393 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,393 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,393 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,451 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,451 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,451 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,529 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,529 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,529 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,597 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,597 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,597 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,661 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,661 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,661 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,731 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,731 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,731 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,818 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/500] (42) test_mae: 169089.1875, test_rmse: 1033761.1875, lr: 0.000800, 4.7s
+2025-01-20 20:15:33,818 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275781.3750 to 275776.5000.
+2025-01-20 20:15:33,836 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:33,836 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:33,836 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:33,836 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:33,836 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:33,900 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:33,947 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:33,949 - model.pytorch.dcrnn_supervisor - DEBUG - 552112.375
+2025-01-20 20:15:34,089 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:34,089 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:34,089 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:34,089 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:34,090 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:34,154 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:34,199 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:34,201 - model.pytorch.dcrnn_supervisor - DEBUG - 556623.4375
+2025-01-20 20:15:34,322 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:34,322 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:34,322 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:34,322 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:34,323 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:34,408 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:34,453 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:34,455 - model.pytorch.dcrnn_supervisor - DEBUG - 530667.0625
+2025-01-20 20:15:34,580 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:34,581 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:34,581 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:34,581 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:34,581 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:34,649 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:34,693 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:34,695 - model.pytorch.dcrnn_supervisor - DEBUG - 554806.8125
+2025-01-20 20:15:34,815 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:34,815 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:34,815 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:34,815 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:34,815 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:34,882 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:34,926 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:34,928 - model.pytorch.dcrnn_supervisor - DEBUG - 575942.125
+2025-01-20 20:15:35,058 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:35,058 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:35,058 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:35,058 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:35,058 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:35,123 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:35,169 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:35,171 - model.pytorch.dcrnn_supervisor - DEBUG - 506251.40625
+2025-01-20 20:15:35,294 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:35,294 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:35,294 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:35,294 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:35,294 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:35,362 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:35,406 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:35,408 - model.pytorch.dcrnn_supervisor - DEBUG - 608000.25
+2025-01-20 20:15:35,545 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:35,545 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:35,545 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:35,545 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:35,546 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:35,613 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:35,659 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:35,660 - model.pytorch.dcrnn_supervisor - DEBUG - 525656.5625
+2025-01-20 20:15:35,783 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:35,783 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:35,783 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:35,783 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:35,784 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:35,847 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:35,895 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:35,897 - model.pytorch.dcrnn_supervisor - DEBUG - 479750.0625
+2025-01-20 20:15:36,040 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:36,041 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:36,041 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:36,041 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:36,041 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:36,109 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:36,154 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:36,156 - model.pytorch.dcrnn_supervisor - DEBUG - 495968.15625
+2025-01-20 20:15:36,285 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:36,285 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:36,285 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:36,285 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:36,286 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:36,351 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:36,396 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:36,398 - model.pytorch.dcrnn_supervisor - DEBUG - 581075.9375
+2025-01-20 20:15:36,527 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:36,527 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:36,527 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:36,527 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:36,528 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:36,593 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:36,639 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:36,641 - model.pytorch.dcrnn_supervisor - DEBUG - 522886.5625
+2025-01-20 20:15:36,767 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:36,767 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:36,767 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:36,767 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:36,767 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:36,833 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:36,878 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:36,880 - model.pytorch.dcrnn_supervisor - DEBUG - 548997.5
+2025-01-20 20:15:37,001 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,001 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,001 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,001 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:37,002 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:37,067 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:37,124 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:37,126 - model.pytorch.dcrnn_supervisor - DEBUG - 538362.0625
+2025-01-20 20:15:37,253 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2025-01-20 20:15:37,253 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2025-01-20 20:15:37,254 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,254 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,254 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,338 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,338 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,338 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,404 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,404 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,404 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,493 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,493 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,493 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,583 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,583 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,583 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,655 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,655 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,655 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,729 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,729 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,729 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,800 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,800 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,800 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,866 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,866 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,866 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,926 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,927 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,927 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:37,998 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:37,998 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:37,998 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,058 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,058 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,058 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,130 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,130 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,130 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,188 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,188 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,188 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,265 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,265 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,265 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,325 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,325 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,325 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,401 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,401 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,401 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,481 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/500] (56) train_mae: 541221.4509, train_kld: 0.0028, val_mae: 275766.1875, lr: 0.000800, 4.6s
+2025-01-20 20:15:38,482 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,482 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,482 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,563 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,563 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,563 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,632 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,632 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,632 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,700 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,700 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,700 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,754 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,755 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,755 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,830 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,830 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,830 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,906 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,906 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,906 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:38,984 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:38,984 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:38,984 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,068 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,068 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,068 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,154 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,154 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,154 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,256 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,256 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,256 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,335 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,336 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,336 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,402 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,402 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,402 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,479 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,479 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,479 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,565 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,565 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,565 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,663 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,663 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,663 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,740 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,740 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,740 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,811 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,811 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,811 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,881 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/500] (56) test_mae: 169082.1094, test_rmse: 1033759.1250, lr: 0.000800, 4.6s
+2025-01-20 20:15:39,881 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 275776.5000 to 275766.1875.
+2025-01-20 20:15:39,896 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:39,896 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:39,896 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:39,897 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:39,897 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:39,962 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:40,008 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:40,010 - model.pytorch.dcrnn_supervisor - DEBUG - 540272.6875
+2025-01-20 20:15:40,130 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:40,130 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:40,130 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:40,130 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:40,131 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:40,193 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:40,240 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:40,242 - model.pytorch.dcrnn_supervisor - DEBUG - 529354.4375
+2025-01-20 20:15:40,374 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:40,374 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:40,374 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:40,374 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:40,375 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:40,442 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:40,487 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:40,489 - model.pytorch.dcrnn_supervisor - DEBUG - 537581.5625
+2025-01-20 20:15:40,616 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:40,616 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:40,616 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:40,616 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:40,616 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:40,683 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:40,728 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:40,731 - model.pytorch.dcrnn_supervisor - DEBUG - 555029.0625
+2025-01-20 20:15:40,849 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:40,849 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:40,849 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:40,849 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:40,850 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:40,912 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:40,958 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:40,960 - model.pytorch.dcrnn_supervisor - DEBUG - 565803.9375
+2025-01-20 20:15:41,083 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:41,083 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:41,083 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:41,083 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:41,083 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:41,148 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:41,193 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:41,195 - model.pytorch.dcrnn_supervisor - DEBUG - 518259.46875
+2025-01-20 20:15:41,323 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:41,323 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:41,323 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:41,323 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:41,324 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:41,387 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:41,433 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:41,435 - model.pytorch.dcrnn_supervisor - DEBUG - 587579.1875
+2025-01-20 20:15:41,557 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:41,558 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:41,558 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:41,558 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:41,558 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:41,623 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:41,668 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:41,670 - model.pytorch.dcrnn_supervisor - DEBUG - 548759.125
+2025-01-20 20:15:41,789 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:41,789 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:41,789 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:41,789 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:41,790 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:41,857 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:41,905 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:41,907 - model.pytorch.dcrnn_supervisor - DEBUG - 481842.875
+2025-01-20 20:15:42,031 - model.pytorch.dcrnn_supervisor - DEBUG - X: torch.Size([128, 28, 58, 10])
+2025-01-20 20:15:42,031 - model.pytorch.dcrnn_supervisor - DEBUG - y: torch.Size([128, 28, 24])
+2025-01-20 20:15:42,031 - model.pytorch.dcrnn_supervisor - DEBUG - X0: torch.Size([128, 24])
+2025-01-20 20:15:42,031 - model.pytorch.dcrnn_supervisor - DEBUG - starting point complete, starting split source and target
+2025-01-20 20:15:42,032 - model.pytorch.dcrnn_supervisor - DEBUG - data split complete, starting encoder
+2025-01-20 20:15:42,107 - model.pytorch.dcrnn_supervisor - DEBUG - Encoder complete, starting decoder
+2025-01-20 20:15:42,152 - model.pytorch.dcrnn_supervisor - DEBUG - Decoder complete
+2025-01-20 20:15:42,154 - model.pytorch.dcrnn_supervisor - DEBUG - 500196.71875
