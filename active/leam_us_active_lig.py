@@ -13,51 +13,82 @@ import os
 import json
 import requests
 import zipfile
+import time
 
 def main(args):
-    # Stress Test and Get Time Stamp
+    # Get API key
     with open("secrets/secrets.json", "r") as s:
-         api_token = json.load(s)["api_token"]
+         api_token = json.load(s)["token"]
     
-    API_URL = "https://gleam-seir-api-883627921778.us-west1.run.app/download-folder"
-    FOLDER_NAME = "outputdata/data1739842798/data"  # The folder you want to download based on timestamp outputted from compute run
-    OUTPUT_ZIP_PATH = "downloaded_folder.zip"  # Where to save the ZIP file
-    API_KEY = api_token
-
-
-    headers = {
-        "X-API-Key": API_KEY
+    # Stress test and get timestamp
+    st_url = "https://gleam-seir-api-883627921778.us-west1.run.app/create_dummy_compute"
+    st_headers = {
+        "X-API-Key": api_token,
+        "Content-Type": "application/json"
     }
+    st_payload = {
+        "cpu": 1,
+        "io": 1,
+        "vm": 1,
+        "vm_bytes": "1G",
+        "timeout": "1M"
+    }
+    st_response = requests.post(st_url, json=st_payload, headers=st_headers)
+    if st_response.status_code != 200:
+         print(f"Error with stress test API: {st_response.status_code}, {st_response.text}")
+         return
+    
+    current_timestamp = st_response.json()
 
-    response = requests.get(f"{API_URL}?folder_name={FOLDER_NAME}", headers=headers, stream=True)
+    # Get data
+    data_url = "https://gleam-seir-api-883627921778.us-west1.run.app/download-folder"
+    cloud_folder = f"outputdata/data{current_timestamp}"
+    local_zip_path = "downloaded_folder.zip"
 
-    if response.status_code == 200:
-        download_url = response.json()["download_url"]
-        print(f"Download URL: {download_url}")
-        zip_response = requests.get(download_url, stream=True)
-        if zip_response.status_code == 200:
-            with open("downloaded_folder.zip", "wb") as f:
-                for chunk in zip_response.iter_content(chunk_size=8192):
-                    f.write(chunk)
-            print("Downloaded successfully: downloaded_folder.zip")
-        else:
-            print(f"Error downloading ZIP: {zip_response.status_code}, {zip_response.text}")
-            return
+    data_headers = {
+        "X-API-Key": api_token
+    }
+    data_url = f"{data_url}?folder_name={cloud_folder}"
+    data_response = requests.get(data_url, headers=data_headers, stream=True)
+    if data_response.status_code != 200:
+         print(f"Error with data API: {data_response.status_code}, {data_response.text}")
+         return
+    
+    # Get zipfile
+    download_url = data_response.json()["download_url"]
+    zip_response = None
+    retries = 3
+    for _ in range(retries):
+         time.sleep(60)
+         zip_response = requests.get(download_url, stream=True)
+         if zip_response.status_code != 200:
+              print("Retrying Zip Pull")
+              continue
+         
+         break
+    
+    if zip_response.status_code != 200:
+         print(f"Error pulling zip file: {zip_response.status_code}, {zip_response.text}")
+         return
+    
+    with open(local_zip_path, "wb") as f:
+         for chunk in zip_response.iter_content(chunk_size=8192):
+              f.write(chunk)
 
-    else:
-        print(f"Error: {response.status_code}, {response.text}")
-        return
+    # Extract zipfile
+    extract_to_path = "data/data"
+    os.makedirs(extract_to_path, exist_ok=True)
 
-    ZIP_FILE_PATH = "downloaded_folder.zip"  # Path to the downloaded ZIP file
-    EXTRACT_TO = "data/data"  # Directory where files will be extracted
+    with zipfile.ZipFile(local_zip_path, "r") as zip_ref:
+        for file in zip_ref.namelist():
+            if file.endswith(".npy") or file.endswith(".npz"):
+                file_name = file.split("/")[-1]
+                dest_path = os.path.join(extract_to_path, file_name)
 
-    os.makedirs(EXTRACT_TO, exist_ok=True)
+                with zip_ref.open(file) as source, open(dest_path, "wb") as dest:
+                    dest.write(source.read())
 
-
-    with zipfile.ZipFile(ZIP_FILE_PATH, 'r') as zip_ref:
-        zip_ref.extractall(EXTRACT_TO)
-
-    print(f"Files extracted to: {EXTRACT_TO}")
+    print("Successfully extracted the data")
 
     with open(args.config_filename) as f:
         supervisor_config = yaml.safe_load(f)

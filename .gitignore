@@ -1,2 +1,4 @@
 active/data/data/*
-active/secrets/*
+active/*.zip
+*__pycache__
+*ipynb
