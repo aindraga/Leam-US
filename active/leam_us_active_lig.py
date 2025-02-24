@@ -10,9 +10,55 @@ from model.pytorch.dcrnn_supervisor import DCRNNSupervisor
 import random
 import numpy as np
 import os
-
+import json
+import requests
+import zipfile
 
 def main(args):
+    # Stress Test and Get Time Stamp
+    with open("secrets/secrets.json", "r") as s:
+         api_token = json.load(s)["api_token"]
+    
+    API_URL = "https://gleam-seir-api-883627921778.us-west1.run.app/download-folder"
+    FOLDER_NAME = "outputdata/data1739842798/data"  # The folder you want to download based on timestamp outputted from compute run
+    OUTPUT_ZIP_PATH = "downloaded_folder.zip"  # Where to save the ZIP file
+    API_KEY = api_token
+
+
+    headers = {
+        "X-API-Key": API_KEY
+    }
+
+    response = requests.get(f"{API_URL}?folder_name={FOLDER_NAME}", headers=headers, stream=True)
+
+    if response.status_code == 200:
+        download_url = response.json()["download_url"]
+        print(f"Download URL: {download_url}")
+        zip_response = requests.get(download_url, stream=True)
+        if zip_response.status_code == 200:
+            with open("downloaded_folder.zip", "wb") as f:
+                for chunk in zip_response.iter_content(chunk_size=8192):
+                    f.write(chunk)
+            print("Downloaded successfully: downloaded_folder.zip")
+        else:
+            print(f"Error downloading ZIP: {zip_response.status_code}, {zip_response.text}")
+            return
+
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+        return
+
+    ZIP_FILE_PATH = "downloaded_folder.zip"  # Path to the downloaded ZIP file
+    EXTRACT_TO = "data/data"  # Directory where files will be extracted
+
+    os.makedirs(EXTRACT_TO, exist_ok=True)
+
+
+    with zipfile.ZipFile(ZIP_FILE_PATH, 'r') as zip_ref:
+        zip_ref.extractall(EXTRACT_TO)
+
+    print(f"Files extracted to: {EXTRACT_TO}")
+
     with open(args.config_filename) as f:
         supervisor_config = yaml.safe_load(f)
 

@@ -1,0 +1,10 @@
+!data/model/dcrnn_cov.yaml
+!data/model/pretrained/*
+*/__pycache__/
+*.pyc
+*.pyo
+runs/data/model/*
+seed1
+*.zip
+*.ipynb
+*.csv
