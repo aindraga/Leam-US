@@ -19,7 +19,7 @@ import csv
 # from torch import autograd
 import json
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:1")
 # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 class DCRNNSupervisor:
