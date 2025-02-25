@@ -4,7 +4,7 @@ import torch.nn as nn
 
 from model.pytorch.dcrnn_cell import DCGRUCell
 
-device = torch.device("cuda:1")
+device = torch.device("cuda")
 
 
 def count_parameters(model):
